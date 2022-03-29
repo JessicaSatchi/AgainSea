@@ -1,0 +1,69 @@
+h1 {
+    color: rgb(90, 173, 194);
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 0%;
+    margin-bottom: -1px;
+    
+}
+
+
+h1:hover {
+    color:rgb(235, 151, 95) !important;
+  }
+
+h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+
+
+  ol {
+    color: rgb(80, 148, 165);
+    list-style-type: none;
+    text-align: center;
+    font-size: 17px;
+    margin-top: -1px;
+    
+  }
+ 
+  ol:hover {
+      color: chocolate;
+  }
+  
+  a:link {
+      color: chocolate;
+  }
+
+  a:visited {
+      color: rgb(80, 148, 165);
+  }
+
+  .menu li {
+      display: inline;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-right: 50px ;
+
+      * {box-sizing:border-box}
+  }
+
+  img {
+    margin: auto;
+    border: none
+    padding: 4px;
+    display: block;
+  }
+
+      
+form {
+    text-align: center;
+    border: none;
+    
+
+

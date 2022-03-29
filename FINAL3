@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <meta charset="UFT-8">
+    <meta name="description" content="Final Project">
+    
+    <link rel="stylesheet" href="New Web-1.css">
+    
+    <title> SEA TURTLE </title>
+    <h1> <style> @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap'); 
+    </style>sea turtles.</h1>
+    
+</head>
+<body style="background-color: #fdf5e4;"></body>
+
+ <!-- Navigation section-->
+ <ol class="menu"> 
+    <li> <a href="FINAL1.HTML">HOME </a></li>
+    <li> <a href="FINAL2.HTML">GET EDUCATED</a></li>
+    <li> <a href="FINAL3.HTML">JOIN US </a></li>
+    
+   </ol>
+  <br/>
+
+
+
+</html>
