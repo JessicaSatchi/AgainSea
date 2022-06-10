@@ -1,0 +1,85 @@
+#score {
+    text-align: center;
+}
+
+#game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid teal; 
+    margin: auto;
+    background-image: url(https://t4.ftcdn.net/jpg/02/39/60/81/360_F_239608136_4qtLPCPhCCzNaSoPo2hiEfMFA1fBXa2R.jpg);
+    background-size: cover ;
+}
+
+
+#turtle {
+    height: 60px;
+    width: 95px;
+    position: relative;
+    top: 225px;
+    background-image: url(https://66.media.tumblr.com/c5af1968d8639d39a285d86c8ca3c3a4/tumblr_mnal5hEzpf1rfjowdo1_500.gif);
+    background-size: cover;
+     
+}
+
+#rock {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 190px;
+    left: 550px ;
+    background-image: url(http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/c6adc9a92d84c54.png);
+    background-size: cover;
+    animation: rock 2.33s infinite;
+}
+
+@keyframes rock {
+    0%{left: 550px;}
+    100%{left: -50px;}
+}
+
+.jump-animation {
+    animation: jump 0.6s;
+}
+
+@keyframes jump {
+    0%{top: 225px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 225px;}
+}
+
+h1 {
+    color: rgb(90, 173, 194);
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 0%;
+    margin-bottom: -1px;
+    
+}
+
+
+ol {
+    color: rgb(80, 148, 165);
+    list-style-type: none;
+    text-align: center;
+    font-size: 17px;
+    margin-top: -1px;
+    
+  }
+
+  .menu li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px ;
+
+    * {box-sizing:border-box}
+}
+
+h4 {
+    color: rgb(90, 173, 194);
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 0%;
+    margin-bottom: -1px;
+}
